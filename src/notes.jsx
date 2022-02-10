@@ -19,6 +19,7 @@ firebase.initializeApp({
 
 const auth = firebase.auth();
 const firestore = firebase.firestore();
+const analytics = firebase.analytics();
 
 function App() {
   const [user] = useAuthState(auth);
@@ -26,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>The Catbox</h1>
+        <h1>⚛️🔥💬</h1>
         <SignOut />
       </header>
 
