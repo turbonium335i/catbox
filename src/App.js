@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>The Catbox</h1>
+        <h1>MeowMeowTalk</h1>
         <SignOut />
       </header>
 
